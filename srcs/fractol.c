@@ -6,7 +6,7 @@
 /*   By: enunes <eocnunes@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/10 20:10:08 by enunes            #+#    #+#             */
-/*   Updated: 2017/10/12 02:52:48 by enunes           ###   ########.fr       */
+/*   Updated: 2017/10/12 04:50:00 by enunes           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ t_mlx			*mlx_set(char *s)
 		return (NULL);
 	mlx->mlx = mlx_init();
 	mlx->f->img = mlx_new_image(mlx->mlx, WIN_W, WIN_H);
-	mlx->win = mlx_new_window(mlx->mlx, WIN_W, WIN_H, "fractol");
+	mlx->win = mlx_new_window(mlx->mlx, WIN_W, WIN_H, "42-Fract'ol");
 	mlx->f->d = mlx_get_data_addr(mlx->f->img, &mlx->f->bpp, &mlx->f->size_line\
 				, &mlx->f->endian);
 	mlx->min_x = -3.2;
