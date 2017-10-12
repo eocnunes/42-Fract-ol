@@ -1,1 +1,1 @@
-# 42-Fractol
+# 42-fractol
