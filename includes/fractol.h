@@ -6,7 +6,7 @@
 /*   By: enunes <eocnunes@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/10 21:22:24 by enunes            #+#    #+#             */
-/*   Updated: 2017/10/12 04:41:16 by enunes           ###   ########.fr       */
+/*   Updated: 2017/10/12 18:18:32 by enunes           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,6 @@ typedef struct	s_fractol
 	int			size_line;
 	char		*d;
 	int			nb;
-	int			m;
 }				t_fractol;
 
 typedef struct	s_mlx
@@ -55,7 +54,6 @@ typedef struct	s_mlx
 /*
 ** ---------------------- fractol.c -----------------------
 */
-int				main(int ac, char **av);
 t_mlx			*mlx_set(char *s);
 t_fractol		*frac_set(char *s);
 

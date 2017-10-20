@@ -6,7 +6,7 @@
 /*   By: enunes <eocnunes@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/10 23:17:41 by enunes            #+#    #+#             */
-/*   Updated: 2017/10/12 04:31:00 by enunes           ###   ########.fr       */
+/*   Updated: 2017/10/12 06:29:44 by enunes           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int			controls(void)
 	ft_putendl("\t\e[1;93mWASD:\e[97m Movement");
 	ft_putendl("\t\e[1;93mE:\e[97m Increase iterations");
 	ft_putendl("\t\e[1;93mQ:\e[97m Decrease iterations");
-	ft_putendl("\t\e[1;93mC:\e[97m Change colorgrade");
+	ft_putendl("\t\e[1;93mC:\e[97m Change color grade");
 	ft_putendl("\t\e[1;93mX:\e[97m Increase frequency");
 	ft_putendl("\t\e[1;93mZ:\e[97m Decrease frequency");
 	ft_putendl("\t\e[1;93mESC:\e[97m Exit\n");

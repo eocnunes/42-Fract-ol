@@ -6,13 +6,13 @@
 /*   By: enunes <eocnunes@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/10 20:10:08 by enunes            #+#    #+#             */
-/*   Updated: 2017/10/12 04:50:00 by enunes           ###   ########.fr       */
+/*   Updated: 2017/10/18 16:45:17 by enunes           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fractol.h"
 
-void			usage_message(void)
+static void			usage_message(void)
 {
 	ft_putstr("\n\e[1;91mError!\e[90m\t");
 	ft_putendl("\e[1;97mUsage: ./fractol fractal_number");
@@ -25,7 +25,7 @@ void			usage_message(void)
 	ft_putendl("--------------------------");
 }
 
-t_fractol		*frac_set(char *s)
+t_fractol			*frac_set(char *s)
 {
 	t_fractol	*f;
 
@@ -41,7 +41,7 @@ t_fractol		*frac_set(char *s)
 	return (f);
 }
 
-t_mlx			*mlx_set(char *s)
+t_mlx				*mlx_set(char *s)
 {
 	t_mlx	*mlx;
 
@@ -64,7 +64,7 @@ t_mlx			*mlx_set(char *s)
 	return (mlx);
 }
 
-int				main(int ac, char **av)
+int					main(int ac, char **av)
 {
 	t_mlx	*mlx;
 
